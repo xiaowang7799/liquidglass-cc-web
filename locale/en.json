@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "title": "Liquid Glass Control Center",
+    "description": "iOS 27 style liquid-glass control center panel: backdrop blur, edge refraction and specular rim highlight."
+  },
+  "liquidglass-cc": {
+    "panel.title": "Control Center",
+    "panel.close": "Close",
+    "tile.wifi": "Wi-Fi",
+    "tile.bluetooth": "Bluetooth",
+    "tile.cellular": "Cellular",
+    "tile.battery": "Battery",
+    "slider.brightness": "Brightness",
+    "slider.volume": "Volume",
+    "toggle.rotation-lock": "Rotation Lock",
+    "toggle.do-not-disturb": "Do Not Disturb",
+    "settings.group.appearance": "Appearance",
+    "settings.enabled": "Enable liquid glass",
+    "settings.blur": "Backdrop blur",
+    "settings.refraction": "Edge refraction",
+    "settings.specular": "Specular rim",
+    "settings.thickness": "Glass thickness",
+    "settings.reset": "Reset"
+  }
+}
