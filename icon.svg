@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="lgGlassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#0ea5e9" stop-opacity="0.6"/>
+    </linearGradient>
+    <filter id="lgGlassBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="14"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="14" ry="14" fill="url(#lgGlassGrad)" filter="url(#lgGlassBlur)"/>
+  <path d="M20 30 h6 v-6 h4 v6 h6 v-4 h-6 v-6 h-4 v6 h-6 z" fill="#ffffff" fill-opacity="0.95"/>
+  <circle cx="44" cy="22" r="5" fill="#ffffff" fill-opacity="0.9"/>
+  <path d="M30 42 q-2 0 -3.5 1.5 t-1.5 3.5 t1.5 3.5 t3.5 1.5" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" fill-opacity="0" stroke-opacity="0.95"/>
+</svg>
