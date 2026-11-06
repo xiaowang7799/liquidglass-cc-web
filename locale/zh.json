@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "title": "控制中心液态玻璃",
+    "description": "iOS 27 风格控制中心液态玻璃面板：背景实时模糊、边缘折射透镜与菲涅尔边缘高光。"
+  },
+  "liquidglass-cc": {
+    "panel.title": "控制中心",
+    "panel.close": "关闭",
+    "tile.wifi": "Wi-Fi",
+    "tile.bluetooth": "蓝牙",
+    "tile.cellular": "移动网络",
+    "tile.battery": "电量",
+    "slider.brightness": "亮度",
+    "slider.volume": "音量",
+    "toggle.rotation-lock": "旋转锁定",
+    "toggle.do-not-disturb": "免打扰",
+    "settings.group.appearance": "外观",
+    "settings.enabled": "启用液态玻璃",
+    "settings.blur": "背景模糊",
+    "settings.refraction": "边缘折射",
+    "settings.specular": "边缘高光",
+    "settings.thickness": "玻璃厚度",
+    "settings.reset": "重置"
+  }
+}
