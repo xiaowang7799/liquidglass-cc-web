@@ -1,0 +1,31 @@
+{
+  "name": "@local/liquidglass-cc",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "控制中心液态玻璃：iOS 27 风格玻璃材质面板（背景采样模糊、边缘折射、菲涅尔高光）",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": ["@deepseek-ai/dsh-client-ui-conversation"]
+    }
+  },
+  "license": "MIT"
+}
